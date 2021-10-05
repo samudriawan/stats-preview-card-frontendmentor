@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  max-width: 1440px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #090b1a;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 0.5em;
+  color: white;
+  background-color: rgba(170, 92, 219, 0.3);
+}
+@media screen and (min-width: 376px) {
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 70%;
+  }
+}
+.card-image {
+  position: relative;
+  display: block;
+  background-image: url(../../images/image-header-mobile.jpg);
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  mix-blend-mode: overlay;
+}
+@media screen and (min-width: 376px) {
+  .card-image {
+    background-image: url(../../images/image-header-desktop.jpg);
+    height: 100%;
+  }
+}
+.card-body {
+  background-color: #1b1938;
+}
+@media screen and (min-width: 376px) {
+  .card-body {
+    padding: 2em 3em 2em 4em;
+    text-align: left;
+  }
+}
+.card-heading {
+  text-align: center;
+  font-weight: 700;
+  padding: 1.3em;
+}
+@media screen and (min-width: 376px) {
+  .card-heading {
+    padding-left: 0;
+    text-align: left;
+  }
+}
+.card-heading span {
+  color: #aa5cdb;
+}
+.card-main {
+  padding: 0 2.5em 2em 2.5em;
+  font-size: 15px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.75);
+}
+@media screen and (min-width: 376px) {
+  .card-main {
+    margin-right: 2.5em;
+    padding-left: 0;
+    margin-bottom: 2em;
+    text-align: left;
+    font-size: 0.83em;
+  }
+}
+@media screen and (min-width: 376px) {
+  .card-stats {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+  }
+}
+.card-stats-item {
+  padding-bottom: 1.5em;
+  text-align: center;
+}
+@media screen and (min-width: 376px) {
+  .card-stats-item {
+    text-align: left;
+    padding-right: 4.5em;
+  }
+}
+.card-stats-item_num {
+  font-weight: 700;
+}
+.card-stats-item_heading {
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding-top: 0.5em;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  font-size: 11px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/*# sourceMappingURL=main.css.map */
