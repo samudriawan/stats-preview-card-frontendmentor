@@ -37,7 +37,7 @@ body {
 	@include flex(center, column);
 	position: relative;
 	width: 90%;
-	margin: 0 auto;
+	margin: auto;
 	overflow: hidden;
 	border-radius: 0.5em;
 	color: $neutral-color;
@@ -130,10 +130,7 @@ body {
 }
 
 .attribution {
-	position: absolute;
-	bottom: 5px;
-	left: 0;
-	right: 0;
+	margin-top: auto;
 	font-size: 11px;
 	text-align: center;
 	color: $neutral-color-600;
