@@ -29,7 +29,7 @@ body {
   color: white;
   background-color: rgba(170, 92, 219, 0.3);
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 769px) {
   .card {
     display: flex;
     justify-content: center;
@@ -48,16 +48,16 @@ body {
   background-repeat: no-repeat;
   mix-blend-mode: overlay;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 769px) {
   .card-image {
     background-image: url(../../images/image-header-desktop.jpg);
-    height: 100%;
+    height: 347px;
   }
 }
 .card-body {
   background-color: #1b1938;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 769px) {
   .card-body {
     padding: 2em 3em 2em 4em;
     text-align: left;
@@ -68,7 +68,7 @@ body {
   font-weight: 700;
   padding: 1.3em;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 769px) {
   .card-heading {
     padding-left: 0;
     text-align: left;
@@ -83,7 +83,7 @@ body {
   text-align: center;
   color: rgba(255, 255, 255, 0.75);
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 769px) {
   .card-main {
     margin-right: 2.5em;
     padding-left: 0;
@@ -92,7 +92,7 @@ body {
     font-size: 0.83em;
   }
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 769px) {
   .card-stats {
     display: flex;
     justify-content: flex-start;
@@ -104,7 +104,7 @@ body {
   padding-bottom: 1.5em;
   text-align: center;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 769px) {
   .card-stats-item {
     text-align: left;
     padding-right: 4.5em;
